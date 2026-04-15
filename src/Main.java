@@ -126,7 +126,7 @@ public class Main {
   }
 
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // YOUR ANSWER HERE: o(n)
   public static void printCharacters(char[] chars) {
     for (int i = 0; i < chars.length; i++) {
       char character = chars[i];
@@ -134,7 +134,7 @@ public class Main {
     }
   }
   // The time complexity is:
-  // YOUR ANSWER HERE
+  // YOUR ANSWER HERE: o(1)
   public static double computeAverage(double a, double b) {
     return (a + b) / 2.0;
   }
