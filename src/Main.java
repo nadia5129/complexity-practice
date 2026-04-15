@@ -199,8 +199,13 @@ public class Main {
   // Do not change the datatype of wordSet or wordList.
   // assume that each String is bounded by a constant length
   // What is the time complexity of your new solution?
-  // YOUR ANSWER HERE
+  // YOUR ANSWER HERE: o(n)
   public static boolean hasCommonEfficient(HashSet<String> wordSet, ArrayList<String> wordList) {
+    for(String word : wordList){
+      if(wordSet.contains(word)){
+        return true;
+      }
+    }
     return false;
   }
 
